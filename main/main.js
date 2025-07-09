@@ -23,21 +23,21 @@ class Card {
 
     getImageUrl(type) {
         const imageMap = {
-            [CARD_TYPES.DEFUSE]: '/img/defuse.png',
-            [CARD_TYPES.NOPE]: '/img/nope.png',
-            [CARD_TYPES.ATTACK]: '/img/attack.png',
-            [CARD_TYPES.SKIP]: '/img/skip.png',
-            [CARD_TYPES.FAVOR]: '/img/favor.png',
-            [CARD_TYPES.SHUFFLE]: '/img/shuffle.png',
-            [CARD_TYPES.FUTURE]: '/img/future.png',
-            [CARD_TYPES.KITTEN]: '/img/kitten.png',
+            [CARD_TYPES.DEFUSE]: 'ExplodingKittens/img/defuse.png',
+            [CARD_TYPES.NOPE]: 'ExplodingKittens/img/nope.png',
+            [CARD_TYPES.ATTACK]: 'ExplodingKittens/img/attack.png',
+            [CARD_TYPES.SKIP]: 'ExplodingKittens/img/skip.png',
+            [CARD_TYPES.FAVOR]: 'ExplodingKittens/img/favor.png',
+            [CARD_TYPES.SHUFFLE]: 'ExplodingKittens/img/shuffle.png',
+            [CARD_TYPES.FUTURE]: 'ExplodingKittens/img/future.png',
+            [CARD_TYPES.KITTEN]: 'ExplodingKittens/img/kitten.png',
             [CARD_TYPES.CAT]: this.getRandomCatImage()
         };
-        return imageMap[type] || '/img/default.png';
+        return imageMap[type] || 'ExplodingKittens/img/default.png';
     }
 
     getRandomCatImage() {
-        const catImages = ['/img/cat1.png', '/img/cat2.png', '/img/cat3.png', '/img/cat4.png', '/img/cat5.png'];
+        const catImages = ['ExplodingKittens/img/cat1.png', 'ExplodingKittens/img/cat2.png', 'ExplodingKittens/img/cat3.png', 'ExplodingKittens/img/cat4.png', 'ExplodingKittens/img/cat5.png'];
         return catImages[Math.floor(Math.random() * catImages.length)];
     }
 }
