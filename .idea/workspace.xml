@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2e9e8467-1105-4afa-b4d6-eb0ff7efbe38" name="Changes" comment="Реализована вся игра, кроме особых комбинаций и карты &quot;Неть&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +111,7 @@
       <workItem from="1751893563332" duration="12143000" />
       <workItem from="1751984476332" duration="9000" />
       <workItem from="1752057947887" duration="2987000" />
-      <workItem from="1752062812116" duration="3683000" />
+      <workItem from="1752062812116" duration="3788000" />
     </task>
     <task id="LOCAL-00001" summary="Реализована вся игра, кроме особых комбинаций и карты &quot;Неть&quot;">
       <option name="closed" value="true" />
